@@ -1,0 +1,40 @@
+/* Importa las directivas de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aquí puedes agregar tus estilos personalizados globales */
+
+/* Estilos globales */
+body {
+  font-family: 'Inter', sans-serif; /* Ejemplo de fuente global */
+  background-color: #f8f9fa; /* Color de fondo */
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que los títulos tengan un estilo consistente */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Otros estilos globales opcionales */
+html, body {
+  font-size: 16px;
+  color: #333; /* Color de texto por defecto */
+}
+
+* {
+  box-sizing: border-box; /* Esto asegura que el padding y border no afecten el ancho de los elementos */
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado por defecto en los enlaces */
+}
+
+button {
+  border: none; /* Elimina los bordes por defecto en los botones */
+  background-color: transparent; /* Fondo transparente en los botones */
+  cursor: pointer; /* Cambia el cursor cuando pasa sobre un botón */
+}
